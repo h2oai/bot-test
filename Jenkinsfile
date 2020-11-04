@@ -5,7 +5,7 @@ import groovy.json.JsonOutput
 def slackNotificationChannel = 'slack-test'     // ex: = "builds"
 
 def notifySlack(text, channel, attachments) {
-    def slackURL = 'https://hooks.slack.com/services/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'
+    def slackURL = 'https://hooks.slack.com/services/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'
     def jenkinsIcon = 'https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png'
 
     def payload = JsonOutput.toJson([text: text,
